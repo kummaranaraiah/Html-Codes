@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3rd Semester Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .result-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 600px;
+        }
+        .result-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .student-info {
+            margin-bottom: 20px;
+        }
+        .student-info p {
+            margin: 5px 0;
+        }
+        .result-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .result-table th, .result-table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        .result-table th {
+            background-color: #f4f4f4;
+        }
+        .result-table td {
+            background-color: #fafafa;
+        }
+        .total {
+            text-align: right;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="result-container">
+        <h2>3rd Semester Result</h2>
+        <div class="student-info">
+            <p><strong>Name:</strong> John Doe</p>
+            <p><strong>Roll Number:</strong> 123456</p>
+            <p><strong>Course:</strong> Bachelor of Science in Computer Science</p>
+        </div>
+        <table class="result-table">
+            <tr>
+                <th>Subject</th>
+                <th>Max Marks</th>
+                <th>Marks Obtained</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>Mathematics</td>
+                <td>100</td>
+                <td>85</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Data Structures</td>
+                <td>100</td>
+                <td>78</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>Operating Systems</td>
+                <td>100</td>
+                <td>82</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Database Management</td>
+                <td>100</td>
+                <td>75</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>Computer Networks</td>
+                <td>100</td>
+                <td>88</td>
+                <td>A</td>
+            </tr>
+        </table>
+        <div class="total">
+            <p><strong>Total Marks:</strong> 408 / 500</p>
+            <p><strong>Percentage:</strong> 81.6%</p>
+            <p><strong>Result:</strong> Passed</p>
+        </div>
+    </div>
+
+</body>
+</html>
